@@ -30,7 +30,6 @@ body {
 }
 
 .custom1 {
- border: 2px solid red;
   width: 90%;
   height: 100vh;
 }
@@ -300,7 +299,7 @@ body {
 /* Responsive Design */
 @media (max-width: 1300px) {
   .custom1{
-    border: 2px solid white;
+    border: none;
     width: 91%;
   }
   .sectionOne {
@@ -322,7 +321,6 @@ body {
 
 @media (max-width: 768px) {
   .custom1{
-    border: 2px solid white;
     width: 95%;
   }
   .mainContent {
