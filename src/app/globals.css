@@ -30,7 +30,7 @@ body {
 }
 
 .custom1 {
-  border: none;
+ border: 2px solid red;
   width: 90%;
   height: 100vh;
 }
@@ -298,9 +298,10 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 1280px) {
+@media (max-width: 1300px) {
   .custom1{
-    width: 95%;
+    border: 2px solid white;
+    width: 91%;
   }
   .sectionOne {
     width: 80%;
@@ -320,6 +321,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .custom1{
+    border: 2px solid white;
+    width: 95%;
+  }
   .mainContent {
     gap: 8px;
     border: none;
@@ -363,7 +368,7 @@ body {
   }
   .main-div{
     padding-top: 0%;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   .sectionOne{
     display: flex;
